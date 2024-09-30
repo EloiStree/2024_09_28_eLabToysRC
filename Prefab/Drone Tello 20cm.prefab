@@ -833,13 +833,25 @@ MonoBehaviour:
   m_rotateLeftRightValue: 0
   m_frontalMoveValue: 0
   m_verticalMoveValue: 0
-  m_horizontalRotationValue: 0
+  m_horizontalMoveValue: 0
   m_onFrontalMove:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5693401480437092869}
         m_TargetAssemblyTypeName: RCEasyMoveControllerLerpMono, be.elab.tellotoy
         m_MethodName: SetFrontalMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5975955555659084138}
+        m_TargetAssemblyTypeName: RotateLocalyWithRCMono, be.elab.tellotoy
+        m_MethodName: SetPitchRC
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -870,6 +882,18 @@ MonoBehaviour:
       - m_Target: {fileID: 5693401480437092869}
         m_TargetAssemblyTypeName: RCEasyMoveControllerLerpMono, be.elab.tellotoy
         m_MethodName: SetHorizontaMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5975955555659084138}
+        m_TargetAssemblyTypeName: RotateLocalyWithRCMono, be.elab.tellotoy
+        m_MethodName: SetRollRC
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

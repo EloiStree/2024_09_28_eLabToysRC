@@ -1035,7 +1035,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8560554973690948820}
         m_TargetAssemblyTypeName: HelicopterMono, be.elab.hellocopter
-        m_MethodName: SetMoveBackToFront
+        m_MethodName: SetMoveDownToUp
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

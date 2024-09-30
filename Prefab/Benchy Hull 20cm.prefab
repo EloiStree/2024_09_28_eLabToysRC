@@ -5271,8 +5271,8 @@ MonoBehaviour:
   m_onPercentLeftRight:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2299689766397041195}
-        m_TargetAssemblyTypeName: MoveBoatRelayMono, be.elab.quaiboatnidar
+      - m_Target: {fileID: 8546650347009124489}
+        m_TargetAssemblyTypeName: MoveBoatMono, be.elab.quaiboatnidar
         m_MethodName: SetLeftRightPercent
         m_Mode: 0
         m_Arguments:
@@ -5297,7 +5297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_whatToMove: {fileID: 1832902726008260915}
-  m_moveForwardSpeed: 0.8
+  m_moveForwardSpeed: 1.2
   m_moveBackwardSpeed: 0.15
   m_rotateSpeed: 180
   m_percentLeftRight: 0
