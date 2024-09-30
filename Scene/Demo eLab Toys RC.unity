@@ -344,8 +344,15 @@ Transform:
   - {fileID: 1524958690993108740}
   - {fileID: 1290908440307187428}
   - {fileID: 4311155315486367229}
+  - {fileID: 213892362}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &213892362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+    type: 3}
+  m_PrefabInstance: {fileID: 8799635946777463908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &230798344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1008,7 @@ Transform:
   m_Children:
   - {fileID: 851988287}
   - {fileID: 1921058636}
+  - {fileID: 1964282208}
   - {fileID: 706147123}
   - {fileID: 179827885}
   m_Father: {fileID: 230798345}
@@ -1303,6 +1311,162 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69952804b1d1714aaf3748826765561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1191685406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191685407}
+  - component: {fileID: 1191685409}
+  - component: {fileID: 1191685408}
+  m_Layer: 0
+  m_Name: Gamepad State
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1191685407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191685406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000029802315, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1730003, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1964282208}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1191685408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191685406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5cc3e49977c7514c81a33246c85800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onUpdateTick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1191685409}
+        m_TargetAssemblyTypeName: DualStickRcStateWithEventMono, be.elab.irctoy
+        m_MethodName: PushAllValueToEvents
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1191685409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191685406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0215f9cfb2ee7a749903f87fef234ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dualStickRcState:
+    m_joystickLeftHorizontalValue: 0
+    m_joystickLeftVerticalValue: -0.008
+    m_joystickRightHorizontalValue: 0
+    m_joystickRightVerticalValue: 0
+    m_killSwitchValue: 0
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2125010396}
+        m_TargetAssemblyTypeName: UI3DMono_DualSticksDroneState, be.elab.irctoy
+        m_MethodName: SetWith
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  m_onJoystickLeftHorizontal:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8799635946777463909}
+        m_TargetAssemblyTypeName: TelloJoystickRelayMono, be.elab.tellotoy
+        m_MethodName: SetLeftRightRotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onJoystickLeftVertical:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8799635946777463909}
+        m_TargetAssemblyTypeName: TelloJoystickRelayMono, be.elab.tellotoy
+        m_MethodName: SetVerticalMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onJoystickRightHorizontal:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8799635946777463909}
+        m_TargetAssemblyTypeName: TelloJoystickRelayMono, be.elab.tellotoy
+        m_MethodName: SetHorizontalMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onJoystickRightVertical:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8799635946777463909}
+        m_TargetAssemblyTypeName: TelloJoystickRelayMono, be.elab.tellotoy
+        m_MethodName: SetFrontalMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onKillSwitch:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1262600177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1669,6 +1833,38 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1393606958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393606959}
+  m_Layer: 0
+  m_Name: RC Gamepad 3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1393606959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393606958}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2125010395}
+  m_Father: {fileID: 1964282208}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1401934948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,6 +3305,39 @@ Transform:
   m_Children:
   - {fileID: 1064914456}
   - {fileID: 1114586637}
+  m_Father: {fileID: 645150500}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1964282207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964282208}
+  m_Layer: 0
+  m_Name: Flat Drone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1964282208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964282207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.222, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1191685407}
+  - {fileID: 1393606959}
   m_Father: {fileID: 645150500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1987926152
@@ -5040,6 +5269,92 @@ Transform:
   - {fileID: 1897106838}
   m_Father: {fileID: 179827885}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2125010394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1393606959}
+    m_Modifications:
+    - target: {fileID: 876067763134301219, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_Name
+      value: Dual Joystick Gamepad 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0be703978f76bf74fa9a434655d98a10, type: 3}
+--- !u!4 &2125010395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2182800458755937905, guid: 0be703978f76bf74fa9a434655d98a10,
+    type: 3}
+  m_PrefabInstance: {fileID: 2125010394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2125010396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 861433995794688193, guid: 0be703978f76bf74fa9a434655d98a10,
+    type: 3}
+  m_PrefabInstance: {fileID: 2125010394}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69952804b1d1714aaf3748826765561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2131516578
 GameObject:
   m_ObjectHideFlags: 0
@@ -5523,6 +5838,86 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3d5e2c989450704aa5cdf06a94365a7, type: 3}
+--- !u!1001 &8799635946777463908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 204187059}
+    m_Modifications:
+    - target: {fileID: 8527193087883657799, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Drone Flat  20cm '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.17993891
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13881028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.598
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858846675846830892, guid: 7b82879a43803d24885bd3adcf87b538,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b82879a43803d24885bd3adcf87b538, type: 3}
+--- !u!114 &8799635946777463909 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8550989756497981651, guid: 7b82879a43803d24885bd3adcf87b538,
+    type: 3}
+  m_PrefabInstance: {fileID: 8799635946777463908}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e444960233e47e14498a796085ef4fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

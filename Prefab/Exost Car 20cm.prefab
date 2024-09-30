@@ -632,8 +632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_leftUpButtonOn: 0
-  m_leftDownButtonOn: 0
   m_rightUpButtonOn: 0
+  m_leftDownButtonOn: 0
   m_rightDownButtonOn: 0
   m_onLeftUpButtonOn:
     m_PersistentCalls:
@@ -650,12 +650,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_onLeftDownButtonOn:
+  m_onRightUpButtonOn:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7692674291931473772}
         m_TargetAssemblyTypeName: ExostCarRCDefaultMono, be.elab.carrcexost
-        m_MethodName: SetMotorLeftBack
+        m_MethodName: SetMotorRightFront
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -665,12 +665,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_onRightUpButtonOn:
+  m_onLeftDownButtonOn:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7692674291931473772}
         m_TargetAssemblyTypeName: ExostCarRCDefaultMono, be.elab.carrcexost
-        m_MethodName: SetMotorRightFront
+        m_MethodName: SetMotorLeftBack
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
