@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1294
+  m_VersionIndex: 1321
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2214,6 +2214,52 @@ Transform:
   - {fileID: 5761676259401511064}
   m_Father: {fileID: 3989156642798360705}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2827954061803692838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6364672479921627164}
+  - component: {fileID: 8451456069320175768}
+  m_Layer: 0
+  m_Name: Adapter Dual Stick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6364672479921627164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2827954061803692838}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7394108456044214070}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8451456069320175768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2827954061803692838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf01342a978b2f4ca76f4f11fe4ac5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_toAffect: {fileID: 4390690966505721653}
+  m_absoluteValueToBeOnOnAxis: 0.2
 --- !u!1 &2947317168557460148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2534,53 @@ Transform:
   - {fileID: 3247184946001640174}
   m_Father: {fileID: 5906220727948904287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4897621868474253554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6232682214535089565}
+  - component: {fileID: 5656974306638124378}
+  m_Layer: 0
+  m_Name: Adapter Dual Stick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6232682214535089565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897621868474253554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4653468831406732672}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5656974306638124378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897621868474253554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ca70d530b577744b826d8e60e5383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_toAffect: {fileID: 1008925213144416362}
+  m_useLeftStick: 1
+  m_useRightStick: 0
 --- !u!1 &5470979268412627665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,7 +2611,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6364672479921627164}
   m_Father: {fileID: 6271624766008731087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4390690966505721653
@@ -3404,7 +3498,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3738
+  m_VersionIndex: 3765
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3674,6 +3768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7740131037586321836}
+  - component: {fileID: 2913717089947873616}
   m_Layer: 0
   m_Name: RC Gamepad 3D
   m_TagString: Untagged
@@ -3697,6 +3792,78 @@ Transform:
   - {fileID: 3891787546568526323}
   m_Father: {fileID: 4699556884811985989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2913717089947873616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746279237360147875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0215f9cfb2ee7a749903f87fef234ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dualStickRcState:
+    m_joystickLeftHorizontalValue: 0
+    m_joystickLeftVerticalValue: 0
+    m_joystickRightHorizontalValue: 0
+    m_joystickRightVerticalValue: 0
+    m_killSwitchValue: 0
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onJoystickLeftHorizontal:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8445214769852912997}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onJoystickLeftVertical:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8445214769852912997}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onJoystickRightHorizontal:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onJoystickRightVertical:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onKillSwitch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8445214769852912997}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5945516123400523732
 GameObject:
   m_ObjectHideFlags: 0
@@ -4075,7 +4242,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6353231004818420453}
         m_TargetAssemblyTypeName: SubmarineDiyPerksMono, be.elab.submarinetoyrc
-        m_MethodName: SetFrontalMove
+        m_MethodName: SetVerticalMove
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4175,7 +4342,8 @@ Transform:
   m_LocalPosition: {x: -0.5640008, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6232682214535089565}
   m_Father: {fileID: 7428558228618147025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1008925213144416362
@@ -4612,10 +4780,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_dualSticksGroup:
-  - {fileID: 3013888471056366593}
-  - {fileID: 795053907859798376}
-  - {fileID: 7826332877735882984}
-  - {fileID: 7601950927826160145}
+  - {fileID: 3467674958243976971}
+  - {fileID: 3630214799091201477}
+  - {fileID: 8898485904091952169}
+  - {fileID: 2172744539137086218}
+  - {fileID: 8036577447721287728}
+  - {fileID: 8390520550893040119}
+  - {fileID: 729040309522173329}
+  m_compatiableCount: 0
   m_index: 0
 --- !u!1 &8656307756272015669
 GameObject:
@@ -4797,9 +4969,44 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
       propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Previous
+      objectReference: {fileID: 0}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DualStickArraySelectorMono, be.elab.irctoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 263219608381172912, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
       propertyPath: m_Name
@@ -4857,19 +5064,124 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DualStickArraySelectorMono, be.elab.irctoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
       propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 623810642276176962}
     - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DualStickArraySelectorMono, be.elab.irctoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
       propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 623810642276176962}
     - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
-      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Previous
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DualStickArraySelectorMono, be.elab.irctoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonDownChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
       propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -4912,7 +5224,7 @@ PrefabInstance:
     - target: {fileID: 1565478287838672894, guid: 76376b570c47dc8479c50f737d1890e2,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 4546
+      value: 4573
       objectReference: {fileID: 0}
     - target: {fileID: 2735380778200968272, guid: 76376b570c47dc8479c50f737d1890e2,
         type: 3}
