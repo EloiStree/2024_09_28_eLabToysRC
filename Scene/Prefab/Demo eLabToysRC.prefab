@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1270
+  m_VersionIndex: 1294
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3404,7 +3404,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3714
+  m_VersionIndex: 3738
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4795,6 +4795,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5740733870110591990}
     m_Modifications:
+    - target: {fileID: 241175619408918011, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+        type: 3}
+      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
     - target: {fileID: 263219608381172912, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
       propertyPath: m_Name
@@ -4850,26 +4855,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+    - target: {fileID: 4285018466404096574, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
-      propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 4803327848656450612, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
-      propertyPath: m_onJoystickRightVertical.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
+      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
+    - target: {fileID: 6788447266611597639, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
-      propertyPath: m_onJoystickLeftHorizontal.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: m_onButtonOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 623810642276176962}
     - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
       propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -4887,89 +4887,9 @@ PrefabInstance:
       objectReference: {fileID: 623810642276176962}
     - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
         type: 3}
-      propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
       propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 623810642276176962}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetJoystickLeftVertical
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightVertical.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightVertical.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetJoystickRightVertical
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetJoystickLeftHorizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetJoystickRightHorizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DualStickArraySelectorMono, be.elab.irctoy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightVertical.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DualStickArraySelectorMono, be.elab.irctoy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DualStickArraySelectorMono, be.elab.irctoy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DualStickArraySelectorMono, be.elab.irctoy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftVertical.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightVertical.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickLeftHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914612967049649862, guid: 270cbb1e2aaeff2448f3a3bb6ae3fb6e,
-        type: 3}
-      propertyPath: m_onJoystickRightHorizontal.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4992,7 +4912,7 @@ PrefabInstance:
     - target: {fileID: 1565478287838672894, guid: 76376b570c47dc8479c50f737d1890e2,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 4522
+      value: 4546
       objectReference: {fileID: 0}
     - target: {fileID: 2735380778200968272, guid: 76376b570c47dc8479c50f737d1890e2,
         type: 3}
