@@ -2518,7 +2518,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4404
+  m_VersionIndex: 4407
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2958,6 +2958,7 @@ Transform:
   - {fileID: 2739813640857872668}
   - {fileID: 7300401387370734007}
   - {fileID: 4522779001809990797}
+  - {fileID: 7531969533919763207}
   - {fileID: 1570726570587417366}
   - {fileID: 4674089341802917463}
   m_Father: {fileID: 0}
@@ -6116,6 +6117,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 283157899524319528, guid: a9b9d63029e70fb4abbd9fec4f5edee2,
     type: 3}
   m_PrefabInstance: {fileID: 6383903214505409737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6464663227765915053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5042184711282078567}
+    m_Modifications:
+    - target: {fileID: 1051899670115599354, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_Name
+      value: Patoune Game Tutorial Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2898759614f5035469bbb93a17c85d25, type: 3}
+--- !u!4 &7531969533919763207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3544885509108950698, guid: 2898759614f5035469bbb93a17c85d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6464663227765915053}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6894734708550126354
 PrefabInstance:
