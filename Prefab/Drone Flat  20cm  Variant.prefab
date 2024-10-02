@@ -43,6 +43,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 92
       objectReference: {fileID: 0}
+    - target: {fileID: 5693401480437092869, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_horizontalAnglePerSeconds
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693401480437092869, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_distanceInMeterPerSeconds.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693401480437092869, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_distanceInMeterPerSeconds.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693401480437092869, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_distanceInMeterPerSeconds.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975955555659084138, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_maxAngleRollLefRight
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975955555659084138, guid: 2c0d659c1a413db4b81420f73d55c587,
+        type: 3}
+      propertyPath: m_maxAnglePitchBackFront
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6932422196068816330, guid: 2c0d659c1a413db4b81420f73d55c587,
         type: 3}
       propertyPath: m_IsActive

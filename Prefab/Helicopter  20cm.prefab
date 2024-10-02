@@ -1089,8 +1089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_whatToMove: {fileID: 2156267612040890234}
-  m_angleSpeedPerSecond: 60
-  m_moveSpeedPerSecond: 0.25
+  m_angleSpeedPerSecond: 180
+  m_moveSpeedPerSecond: 0.6
   m_rotateLeftRightPercent: 0
   m_moveBackToFrontPercent: 0
   m_moveLeftToRightPercent: 0
