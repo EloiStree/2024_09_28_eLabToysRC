@@ -2945,7 +2945,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4917
+  m_VersionIndex: 4920
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -7002,45 +7002,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3168361107221787090}
     m_Modifications:
-    - target: {fileID: 5246689484980757, guid: 4387a0e2845b6a745bd09d258a119d8d, type: 3}
-      propertyPath: m_projectileSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 228020847909906534, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileSpeedMax
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 228020847909906534, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileSpeedMin
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 228020847909906534, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileRadiusMax
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 228020847909906534, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileRadiusMin
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 391617513527200596, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 598162287748464940, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_secondsBetweenTicks
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2612350109646551664, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2911718929221836161, guid: 4387a0e2845b6a745bd09d258a119d8d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7098,69 +7059,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4804609915334035226, guid: 4387a0e2845b6a745bd09d258a119d8d,
         type: 3}
-      propertyPath: m_anchor
-      value: 
-      objectReference: {fileID: 4164962122400655003}
-    - target: {fileID: 4804609915334035226, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
       propertyPath: m_whatToMove
       value: 
       objectReference: {fileID: 3267999538691203138}
-    - target: {fileID: 4804609915334035226, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_frontTopRightCorner
-      value: 
-      objectReference: {fileID: 1689127960643212694}
-    - target: {fileID: 5216181338272470709, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileSpeed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443885487213574070, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileSpeed
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 5572310938600245567, guid: 4387a0e2845b6a745bd09d258a119d8d,
         type: 3}
       propertyPath: m_target
       value: 
       objectReference: {fileID: 3267999538691203138}
-    - target: {fileID: 5994501763431638817, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6296299495291908125, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_speed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6296299495291908125, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_radius
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6296299495291908125, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_bulletsPerExplosion
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 7394948854575486509, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8320068433698908707, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_maxDistance
-      value: 32.767
-      objectReference: {fileID: 0}
-    - target: {fileID: 8755308002263549378, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      propertyPath: m_projectileSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 9176462996753595211, guid: 4387a0e2845b6a745bd09d258a119d8d,
         type: 3}
       propertyPath: m_target
@@ -7169,45 +7075,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8029162011517655488, guid: 4387a0e2845b6a745bd09d258a119d8d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4802410131016608711}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4387a0e2845b6a745bd09d258a119d8d, type: 3}
---- !u!4 &1689127960643212694 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8029724604089809753, guid: 4387a0e2845b6a745bd09d258a119d8d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8655833914367880911}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1689662788055545615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8029162011517655488, guid: 4387a0e2845b6a745bd09d258a119d8d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8655833914367880911}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4802410131016608711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689662788055545615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02e1ce1473ebaeb4c8e4d8ccaa31612f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_targetSNAM: {fileID: 0}
-  m_arrayFetched: 0000000000000000000000000000000000000000
-  m_useUpdateFetch: 1
---- !u!4 &4164962122400655003 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4743233712966649940, guid: 4387a0e2845b6a745bd09d258a119d8d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8655833914367880911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5798160107302908750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2911718929221836161, guid: 4387a0e2845b6a745bd09d258a119d8d,
