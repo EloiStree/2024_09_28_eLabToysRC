@@ -4964,6 +4964,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5119,6 +5122,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5484,6 +5490,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5843,7 +5852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224400297280944345, guid: ebb422590751fc141b715c89a4cde099,
         type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 8853478945015004393}
     - target: {fileID: 349593074480133571, guid: ebb422590751fc141b715c89a4cde099,
@@ -5858,7 +5867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1803616231373087623, guid: ebb422590751fc141b715c89a4cde099,
         type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 8853478945015004393}
     - target: {fileID: 1945265129270759223, guid: ebb422590751fc141b715c89a4cde099,
@@ -5948,7 +5957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3108835987372646100, guid: ebb422590751fc141b715c89a4cde099,
         type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 8853478945015004393}
     - target: {fileID: 3961329011451234448, guid: ebb422590751fc141b715c89a4cde099,
@@ -6013,7 +6022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5054978622641296664, guid: ebb422590751fc141b715c89a4cde099,
         type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 8853478945015004393}
     - target: {fileID: 5566671415989724153, guid: ebb422590751fc141b715c89a4cde099,
@@ -6221,7 +6230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: d18f21e2be311b841840c5d5a124ef2a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fa112587b7765e64fa2b3729df67fd76, type: 2}
     - target: {fileID: 919132149155446097, guid: d18f21e2be311b841840c5d5a124ef2a,
@@ -6463,7 +6472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: 64a6d4f5d7cb2314e852638def7ac728,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3b6a21bd3ab89074fa885674cf1eae48, type: 2}
     - target: {fileID: 919132149155446097, guid: 64a6d4f5d7cb2314e852638def7ac728,
@@ -6542,7 +6551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: f809eec0d46acb0439ce3dd8da751688,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7a0fb62c5e5e278439b0800206f2dc95, type: 2}
     - target: {fileID: 919132149155446097, guid: f809eec0d46acb0439ce3dd8da751688,
